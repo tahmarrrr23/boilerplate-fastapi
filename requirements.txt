@@ -26,8 +26,10 @@ email-validator==2.1.0.post1
     # via fastapi
 exceptiongroup==1.2.0
     # via anyio
-fastapi[all]==0.105.0
-    # via -r requirements.in
+fastapi[all]==0.106.0
+    # via
+    #   -r requirements.in
+    #   fastapi
 greenlet==3.0.2
     # via sqlalchemy
 h11==0.14.0
