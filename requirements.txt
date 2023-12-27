@@ -10,7 +10,6 @@ annotated-types==0.6.0
     # via pydantic
 anyio==3.7.1
     # via
-    #   fastapi
     #   httpx
     #   starlette
     #   watchfiles
@@ -26,8 +25,10 @@ email-validator==2.1.0.post1
     # via fastapi
 exceptiongroup==1.2.0
     # via anyio
-fastapi[all]==0.105.0
-    # via -r requirements.in
+fastapi[all]==0.108.0
+    # via
+    #   -r requirements.in
+    #   fastapi
 greenlet==3.0.2
     # via sqlalchemy
 h11==0.14.0
@@ -91,7 +92,7 @@ sqlalchemy==2.0.23
     #   sqlmodel
 sqlmodel==0.0.14
     # via -r requirements.in
-starlette==0.27.0
+starlette==0.32.0.post1
     # via fastapi
 typing-extensions==4.9.0
     # via
