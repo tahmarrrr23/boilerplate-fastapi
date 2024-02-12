@@ -26,9 +26,7 @@ email-validator==2.1.0.post1
 exceptiongroup==1.2.0
     # via anyio
 fastapi[all]==0.109.0
-    # via
-    #   -r requirements.in
-    #   fastapi
+    # via -r requirements.in
 greenlet==3.0.2
     # via sqlalchemy
 h11==0.14.0
@@ -76,7 +74,7 @@ python-dotenv==1.0.0
     # via
     #   pydantic-settings
     #   uvicorn
-python-multipart==0.0.6
+python-multipart==0.0.7
     # via fastapi
 pyyaml==6.0.1
     # via
