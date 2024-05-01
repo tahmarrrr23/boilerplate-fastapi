@@ -6,18 +6,20 @@ decorator==5.1.1
     # via
     #   ipdb
     #   ipython
-exceptiongroup==1.2.0
-    # via ipython
 executing==2.0.1
     # via stack-data
 ipdb==0.13.13
-ipython==8.21.0
-    # via ipdb
+    # via -r requirements_dev.in
+ipython==8.24.0
+    # via
+    #   -r requirements_dev.in
+    #   ipdb
 jedi==0.19.1
     # via ipython
 matplotlib-inline==0.1.6
     # via ipython
-mypy==1.8.0
+mypy==1.10.0
+    # via -r requirements_dev.in
 mypy-extensions==1.0.0
     # via mypy
 parso==0.8.3
@@ -32,15 +34,12 @@ pure-eval==0.2.2
     # via stack-data
 pygments==2.17.2
     # via ipython
-ruff==0.2.1
+ruff==0.4.2
+    # via -r requirements_dev.in
 six==1.16.0
     # via asttokens
 stack-data==0.6.3
     # via ipython
-tomli==2.0.1
-    # via
-    #   ipdb
-    #   mypy
 traitlets==5.14.1
     # via
     #   ipython
