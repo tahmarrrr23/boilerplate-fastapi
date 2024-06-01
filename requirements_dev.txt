@@ -10,7 +10,7 @@ executing==2.0.1
     # via stack-data
 ipdb==0.13.13
     # via -r requirements_dev.in
-ipython==8.24.0
+ipython==8.25.0
     # via
     #   -r requirements_dev.in
     #   ipdb
@@ -34,7 +34,7 @@ pure-eval==0.2.2
     # via stack-data
 pygments==2.17.2
     # via ipython
-ruff==0.4.2
+ruff==0.4.7
     # via -r requirements_dev.in
 six==1.16.0
     # via asttokens
